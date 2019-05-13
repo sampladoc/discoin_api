@@ -1,0 +1,132 @@
+[debug] [2018-11-20T05:03:20.012Z] ----------------------------------------------------------------------
+[debug] [2018-11-20T05:03:20.016Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAMPLADOC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-11-20T05:03:20.016Z] CLI Version:   4.2.1
+[debug] [2018-11-20T05:03:20.017Z] Platform:      win32
+[debug] [2018-11-20T05:03:20.017Z] Node Version:  v11.1.0
+[debug] [2018-11-20T05:03:20.018Z] Time:          Mon Nov 19 2018 23:03:20 GMT-0600 (Central Standard Time)
+[debug] [2018-11-20T05:03:20.018Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-20T05:03:20.090Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-20T05:03:20.091Z] > authorizing via signed-in user
+[debug] [2018-11-20T05:03:20.094Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-20T05:03:20.095Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-11-20T05:03:20.356Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-20T05:03:20.425Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/discoinpay-api  
+ 
+[debug] [2018-11-20T05:03:20.876Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-20T05:03:20.878Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/discoinpay-api  
+ 
+[debug] [2018-11-20T05:03:21.267Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Projects\discoinpay-firebase-api'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-20T05:03:30.843Z] Fetching environment
+[debug] [2018-11-20T05:03:30.860Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593:getServerAppConfig  
+ 
+[debug] [2018-11-20T05:03:30.861Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-20T05:03:31.184Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-20T05:03:31.185Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-20T05:03:31.270Z] <<< HTTP RESPONSE 200
+[info] i  hosting[discoinpay-api]: Serving hosting files from: public
+[info] +  hosting[discoinpay-api]: Local server: http://localhost:5000
+[debug] [2018-11-20T05:03:52.478Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-11-20T05:03:53.285Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-11-20T05:03:53.364Z] 
+[info] Shutting down...
+[debug] [2018-11-20T07:05:19.736Z] ----------------------------------------------------------------------
+[debug] [2018-11-20T07:05:19.741Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAMPLADOC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-11-20T07:05:19.741Z] CLI Version:   4.2.1
+[debug] [2018-11-20T07:05:19.741Z] Platform:      win32
+[debug] [2018-11-20T07:05:19.741Z] Node Version:  v11.1.0
+[debug] [2018-11-20T07:05:19.759Z] Time:          Tue Nov 20 2018 01:05:19 GMT-0600 (Central Standard Time)
+[debug] [2018-11-20T07:05:19.759Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-20T07:05:19.916Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-20T07:05:19.917Z] > authorizing via signed-in user
+[debug] [2018-11-20T07:05:19.921Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-20T07:05:19.922Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-11-20T07:05:20.150Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-20T07:05:20.196Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/discoinpay-api  
+ 
+[debug] [2018-11-20T07:05:20.624Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-20T07:05:20.626Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/discoinpay-api  
+ 
+[debug] [2018-11-20T07:05:21.071Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\projects\discoinpay-firebase-api'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-20T07:05:38.467Z] Fetching environment
+[debug] [2018-11-20T07:05:38.496Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593:getServerAppConfig  
+ 
+[debug] [2018-11-20T07:05:38.497Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-20T07:05:38.835Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-20T07:05:38.836Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-20T07:05:38.914Z] <<< HTTP RESPONSE 200
+[info] i  hosting[discoinpay-api]: Serving hosting files from: public
+[info] +  hosting[discoinpay-api]: Local server: http://localhost:5000
+[debug] [2018-11-20T07:05:57.209Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-11-20T07:05:58.972Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'firebase-admin'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-11-20T07:05:58.978Z] 
+[debug] [2018-11-20T14:34:40.544Z] ----------------------------------------------------------------------
+[debug] [2018-11-20T14:34:40.548Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAMPLADOC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-11-20T14:34:40.549Z] CLI Version:   4.2.1
+[debug] [2018-11-20T14:34:40.549Z] Platform:      win32
+[debug] [2018-11-20T14:34:40.549Z] Node Version:  v10.13.0
+[debug] [2018-11-20T14:34:40.551Z] Time:          Tue Nov 20 2018 08:34:40 GMT-0600 (Central Standard Time)
+[debug] [2018-11-20T14:34:40.551Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-20T14:34:40.706Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-20T14:34:40.711Z] > authorizing via signed-in user
+[debug] [2018-11-20T14:34:40.715Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-20T14:34:40.716Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-11-20T14:34:41.234Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-20T14:34:41.324Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/discoinpay-api  
+ 
+[debug] [2018-11-20T14:34:42.039Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-20T14:34:42.040Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/discoinpay-api  
+ 
+[debug] [2018-11-20T14:34:42.460Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Projects\discoinpay-firebase-api'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-20T14:35:04.206Z] Fetching environment
+[debug] [2018-11-20T14:35:04.257Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593:getServerAppConfig  
+ 
+[debug] [2018-11-20T14:35:04.258Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-20T14:35:04.540Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-20T14:35:04.541Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-20T14:35:04.782Z] <<< HTTP RESPONSE 200
+[info] i  hosting[discoinpay-api]: Serving hosting files from: public
+[info] +  hosting[discoinpay-api]: Local server: http://localhost:5000
+[debug] [2018-11-20T14:35:18.580Z] Parsing function triggers
+[info] +  functions: api: http://localhost:5001/discoinpay-api/us-central1/api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api

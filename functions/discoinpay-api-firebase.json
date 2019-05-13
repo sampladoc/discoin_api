@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "discoinpay-api",
+  "private_key_id": "9c92942101f56b075038d476ea3b7e477c60676d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwGgSlAgEAAoIBAQDdgQXHA+DgENjt\nOzQvNqX/f6kAlxzQ/iK+iDWwx+2jRA7Gxi/UQjrQh9JS9mRQNzJtIwfnCKMspbGd\ng7LUgYHBsvzWQ9bYGcXOLR44BActcyWqbmc2Xx0gJKfB3zAMyO7bneuEw5ngOwCO\nFXoKItXkCyVTohy81KOxEHFYZKJZ/NtQmNC56nOiN07uA/OIx9avM6rW8uNGy9w3\n/LHBcv5zKoxq1IrNhVUR1ak8fFA4vLSGGaSwo0DQf0aIl7Z7nNKazaBwur0AVG+r\nbOWBwZ1FH40yHLutwneEPWLiTKrn1LEHF2vwlBvitxsEoKsBeI+ou0brt1xr74j7\nADJlrqMVAgMBAAECggEASb1NqJLUdpN1PAi3QSO0QvoDT6R+3d50v5xFz3vHPgAm\nsSrCOnXv8YL91EjzkTbG7Uk3tMSN2euxRQBWdONGSK8m98euytNNpBUmFbzVjN5k\nAChv6MxiPFSnmmNML/1McytQACtD2z+ZMDPbJGuzbDGfEAgMbBqYAfa43RXnbHAg\nE29rr1In+iWF7WWkLdS4vnDxSquEQBX/r5FdFbBhZS+pHdsWsbYraTWjLCzh0ITC\nxxnd1hblm6wmK23dytJu4+gdQyqTxn8IMWtbw3EC0EXsCukoHDmr13/PQFenIeDd\n5O0zHx7Sw6dDU3sNZuNyowXHHjP+ZI0AeoRL9FSGswKBgQD0KQjCzqIQ7ekLSJUU\nUdsEUR94ygmL0+WDr8zuuXkvs2O2e/VIUItL1QrPlXcKDPQQ+t05+l1nTFWbIoD+\nEe4xg0VlLTIYVCpFoq3SPtnZW4+GVpthG4Puq0tGswSIcOjx93CBiQWjFzBny6vN\nlNEeFc+nlnQm5suNW1pbby0QhwKBgQDoPryfmJLinB3fpA23S/z9aqG7BD+XUezX\n1gJ/TzqnJajmQqX4JtRYk4h/XSICkwiXA5A7POuRefURtzoTx+swtVsyETE0U8zr\njYM5sQpdbsjF61Nqhk1Ldelak60q/pwBvATa5ooOM1P5vTnfSPA+vm4R9bU06k9M\nKdyYaLjigwKBgQDvQ9MJDHM3Qd2RKCSnj/ugBFtiBCNMum79GGcsPeerPhFl/52D\nqyKGQpTgjejkmYMHrL7klRu5Ic32Q97CnBGexbRYjOy9eKUgLmZGVT8oyJginnaP\nt+YXGhefhcjYaEVu8Pt4hS1YAF54KNgIk2BGKjufUEos4RjyQmaOmalAuwKBgQDg\nnYygblfhg0wBOBFr7bpI/hBdZ8Z4+2stdHYF2wLHFc08pckPL76/zDB/vftesgXk\nyDV+lXTfxiwXbjZlWz1EZqJE0gvcqA/Q4ZTA/1Ee/D6B7Q9IP4wSJ4ABckJRCt6n\nbsjjTYTIJyxYpYKLSWfRxyt9gz42Z0c6SmJnpSDrMQKBgQCtZs5ue4nfHaXOKO4y\nEXTYCrdJn5+EfAvgRDDZvNWZ6rWR9xst4u5kp439di0LLrgkOnxiNqqQCuvlBpm7\nxHo20Gd7JKIY5wTLLuIpkd+yBMSEkx4gkM1WqoCOhXpmm1JAHR1+yjKBw5Sw5pue\no25JDOI29jb+uWvu+UAL8wnJ/g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-vitdz@discoinpay-api.iam.gserviceaccount.com",
+  "client_id": "103083538402719210487",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-vitdz%40discoinpay-api.iam.gserviceaccount.com"
+}

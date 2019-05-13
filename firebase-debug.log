@@ -1,0 +1,114 @@
+[debug] [2019-01-14T17:30:09.410Z] ----------------------------------------------------------------------
+[debug] [2019-01-14T17:30:09.414Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAMPLADOC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2019-01-14T17:30:09.414Z] CLI Version:   4.2.1
+[debug] [2019-01-14T17:30:09.415Z] Platform:      win32
+[debug] [2019-01-14T17:30:09.415Z] Node Version:  v10.13.0
+[debug] [2019-01-14T17:30:09.416Z] Time:          Mon Jan 14 2019 11:30:09 GMT-0600 (Central Standard Time)
+[debug] [2019-01-14T17:30:09.416Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-14T17:30:09.471Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-14T17:30:09.472Z] > authorizing via signed-in user
+[debug] [2019-01-14T17:30:09.476Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-01-14T17:30:09.477Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2019-01-14T17:30:09.858Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-14T17:30:09.921Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/discoinpay-api  
+ 
+[debug] [2019-01-14T17:30:10.585Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-14T17:30:10.588Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/discoinpay-api  
+ 
+[debug] [2019-01-14T17:30:11.027Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Projects\discoinpay-firebase-api'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-01-14T17:30:30.115Z] Fetching environment
+[debug] [2019-01-14T17:30:30.186Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593:getServerAppConfig  
+ 
+[debug] [2019-01-14T17:30:30.188Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593/clients/_:getWebAppConfig  
+ 
+[debug] [2019-01-14T17:30:30.625Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-14T17:30:30.626Z] Starting @google-cloud/functions-emulator
+[debug] [2019-01-14T17:30:30.835Z] <<< HTTP RESPONSE 200
+[info] i  hosting[discoinpay-api]: Serving hosting files from: public
+[info] +  hosting[discoinpay-api]: Local server: http://localhost:5000
+[debug] [2019-01-14T17:30:43.938Z] Parsing function triggers
+[info] +  functions: api: http://localhost:5001/discoinpay-api/us-central1/api
+[debug] [2019-01-18T15:34:03.612Z] ----------------------------------------------------------------------
+[debug] [2019-01-18T15:34:03.618Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAMPLADOC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2019-01-18T15:34:03.619Z] CLI Version:   4.2.1
+[debug] [2019-01-18T15:34:03.619Z] Platform:      win32
+[debug] [2019-01-18T15:34:03.619Z] Node Version:  v10.13.0
+[debug] [2019-01-18T15:34:03.621Z] Time:          Fri Jan 18 2019 09:34:03 GMT-0600 (Central Standard Time)
+[debug] [2019-01-18T15:34:03.621Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-18T15:34:03.739Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-18T15:34:03.742Z] > authorizing via signed-in user
+[debug] [2019-01-18T15:34:03.747Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-01-18T15:34:03.748Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2019-01-18T15:34:04.130Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-18T15:34:04.161Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/discoinpay-api  
+ 
+[debug] [2019-01-18T15:34:04.795Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-18T15:34:04.796Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/discoinpay-api  
+ 
+[debug] [2019-01-18T15:34:05.230Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Projects\discoinpay-firebase-api'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-01-18T15:34:26.583Z] Fetching environment
+[debug] [2019-01-18T15:34:26.599Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593:getServerAppConfig  
+ 
+[debug] [2019-01-18T15:34:26.599Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593/clients/_:getWebAppConfig  
+ 
+[debug] [2019-01-18T15:34:27.195Z] <<< HTTP RESPONSE 200
+[info] i  hosting[discoinpay-api]: Serving hosting files from: public
+[info] +  hosting[discoinpay-api]: Local server: http://localhost:5000
+[debug] [2019-01-18T15:34:27.841Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-18T15:34:27.842Z] Starting @google-cloud/functions-emulator
+[debug] [2019-01-18T15:34:41.365Z] Parsing function triggers
+[info] +  functions: api: http://localhost:5001/discoinpay-api/us-central1/api
+[debug] [2019-01-30T19:24:03.838Z] ----------------------------------------------------------------------
+[debug] [2019-01-30T19:24:03.842Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAMPLADOC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2019-01-30T19:24:03.843Z] CLI Version:   4.2.1
+[debug] [2019-01-30T19:24:03.843Z] Platform:      win32
+[debug] [2019-01-30T19:24:03.843Z] Node Version:  v10.13.0
+[debug] [2019-01-30T19:24:03.844Z] Time:          Wed Jan 30 2019 13:24:03 GMT-0600 (Central Standard Time)
+[debug] [2019-01-30T19:24:03.844Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-30T19:24:03.970Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-30T19:24:03.972Z] > authorizing via signed-in user
+[debug] [2019-01-30T19:24:03.975Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-01-30T19:24:03.976Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2019-01-30T19:24:04.830Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-30T19:24:04.968Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/discoinpay-api  
+ 
+[debug] [2019-01-30T19:24:05.692Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-30T19:24:05.694Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/discoinpay-api  
+ 
+[debug] [2019-01-30T19:24:06.388Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Projects\discoinpay-firebase-api'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-01-30T19:24:30.004Z] Fetching environment
+[debug] [2019-01-30T19:24:30.062Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593:getServerAppConfig  
+ 
+[debug] [2019-01-30T19:24:30.062Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/916231862593/clients/_:getWebAppConfig  
+ 
+[debug] [2019-01-30T19:24:31.756Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-30T19:24:31.757Z] Starting @google-cloud/functions-emulator
+[debug] [2019-01-30T19:24:32.003Z] <<< HTTP RESPONSE 200
+[info] i  hosting[discoinpay-api]: Serving hosting files from: public
+[info] +  hosting[discoinpay-api]: Local server: http://localhost:5000
+[debug] [2019-01-30T19:24:46.461Z] Parsing function triggers
+[info] +  functions: api: http://localhost:5001/discoinpay-api/us-central1/api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
+[info] [hosting] Rewriting /transaction/verify to local function api
